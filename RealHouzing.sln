@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32728.150
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealHouzing.EntityLayer", "RealHouzing.EntityLayer\RealHouzing.EntityLayer.csproj", "{FB7F7DC7-94FC-47CD-80FD-86FBC9F3D8AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealHouzing.EntityLayer", "RealHouzing.EntityLayer\RealHouzing.EntityLayer.csproj", "{FB7F7DC7-94FC-47CD-80FD-86FBC9F3D8AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealHouzing.DataAccessLayer", "RealHouzing.DataAccessLayer\RealHouzing.DataAccessLayer.csproj", "{55131D13-4B34-4F53-B2D0-55B3EC2313C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealHouzing.DataAccessLayer", "RealHouzing.DataAccessLayer\RealHouzing.DataAccessLayer.csproj", "{55131D13-4B34-4F53-B2D0-55B3EC2313C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealHouzing.BusinessLayer", "RealHouzing.BusinessLayer\RealHouzing.BusinessLayer.csproj", "{91C30DAF-6DCD-42F4-8F59-06C33EF1DD1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealHouzing.BusinessLayer", "RealHouzing.BusinessLayer\RealHouzing.BusinessLayer.csproj", "{91C30DAF-6DCD-42F4-8F59-06C33EF1DD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealHouzing.DtoLayer", "RealHouzing.DtoLayer\RealHouzing.DtoLayer.csproj", "{6ABBFF9B-14B2-46D9-808B-3BEE9B337C71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealHouzing.DtoLayer", "RealHouzing.DtoLayer\RealHouzing.DtoLayer.csproj", "{6ABBFF9B-14B2-46D9-808B-3BEE9B337C71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealHouzing.ApiLayer", "RealHouzing.ApiLayer\RealHouzing.ApiLayer.csproj", "{88318935-D5B8-4293-9B0E-3518E3A4F2B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealHouzing.ApiLayer", "RealHouzing.ApiLayer\RealHouzing.ApiLayer.csproj", "{88318935-D5B8-4293-9B0E-3518E3A4F2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealHouzing.Consume", "RealHouzing.Consume\RealHouzing.Consume.csproj", "{2BD876E5-E53B-44F6-BFDC-A9E3CD97151D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{88318935-D5B8-4293-9B0E-3518E3A4F2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88318935-D5B8-4293-9B0E-3518E3A4F2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88318935-D5B8-4293-9B0E-3518E3A4F2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD876E5-E53B-44F6-BFDC-A9E3CD97151D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD876E5-E53B-44F6-BFDC-A9E3CD97151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD876E5-E53B-44F6-BFDC-A9E3CD97151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD876E5-E53B-44F6-BFDC-A9E3CD97151D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
